@@ -19,20 +19,6 @@
         1006
       ],
       "id": 1002
-    },
-    {
-      "name": "abc",
-      "email": "abc@gmail.com",
-      "phone": "8007541649",
-      "dob": "2019-08-13",
-      "id": 1003
-    },
-    {
-      "name": "mnp",
-      "email": "mnp@gmail.com",
-      "phone": "8007541649",
-      "dob": "2019-08-13",
-      "id": 1004
     }
   ],
   "groups": [
@@ -47,9 +33,7 @@
     {
       "name": "Test",
       "description": "",
-      "users": [
-        1
-      ],
+      "users": [],
       "id": 1007
     }
   ]
