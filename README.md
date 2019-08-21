@@ -11,4 +11,4 @@
 10) Groups can be searched by name, its case sensitive and full text search
 11) Create and save will take back to groups list
 13) Groups can only be deleted if they dont have any user
-14)Clicking on a groups or user will open it up in edit and detail mode
+14) Clicking on a groups or user will open it up in edit and detail mode

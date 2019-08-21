@@ -23,6 +23,9 @@
     {
       "name": "Test",
       "description": "",
+      "users": [
+        1
+      ],
       "id": 1007
     }
   ]
