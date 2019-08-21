@@ -1,0 +1,325 @@
+.group-list .group-list-item .group-icon i, .group-list .group-list-item .delete-icon i, .header img, .header label {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  height: 10%;
+  min-height: 80px;
+  position: relative;
+  padding: 10px;
+  background-color: #004e9a;
+}
+.header label {
+  font-size: 3rem;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.header img {
+  transform: translate(0, -50%);
+  left: 10px;
+  height: 50px;
+  border-radius: 800px;
+}
+
+div.navigation {
+  display: flex;
+  height: 100%;
+}
+div.navigation .left-panel {
+  padding: 0;
+  color: white;
+  background-color: #343a40;
+  height: 100%;
+  width: 15%;
+  -webkit-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+div.navigation .left-panel li {
+  list-style-type: none;
+  border-bottom: 1px solid #5f6468;
+}
+div.navigation .left-panel li:hover {
+  background-color: rgba(175, 183, 189, 0.2);
+  cursor: pointer;
+}
+div.navigation .left-panel li a {
+  color: #afb7bd;
+  text-decoration: none;
+  display: block;
+  padding: 10px 5px 10px 5px;
+}
+div.navigation .left-panel li a.active {
+  color: #fff;
+}
+div.navigation .left-panel li i {
+  margin-right: 10px;
+  font-size: 1.8rem;
+  width: 18px;
+  text-align: center;
+}
+div.navigation .right-panel {
+  width: 85%;
+  padding-bottom: 140px;
+  height: 100%;
+  background-color: #f4f1f2;
+}
+
+.user-list {
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-list .user-list-item {
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  max-height: 40%;
+  margin: 5px;
+  background-color: white;
+  min-height: 220px;
+  width: calc(25% - 1rem);
+  box-shadow: -0.2rem 0 0.3rem #e6e6e6, 0.1rem 0.2rem 0.2rem #e6e6e6;
+}
+.user-list .user-list-item .user-list-top {
+  display: flex;
+}
+.user-list .user-list-item img {
+  margin-bottom: 20px;
+  height: 50px;
+  border-radius: 800px;
+}
+.user-list .user-list-item i {
+  margin-right: 5px;
+}
+.user-list .user-list-item h5 {
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+}
+.user-list .user-list-item h5.name {
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+  .user-list .user-list-item {
+    width: calc(33.33% - 1rem);
+  }
+}
+@media (max-width: 600px) {
+  .user-list .user-list-item {
+    width: calc(50% - 1rem);
+  }
+}
+@media (max-width: 300px) {
+  .user-list .user-list-item {
+    width: calc(100% - 1rem);
+  }
+}
+
+i.fa-trash {
+  color: #0e79cc;
+  font-size: 1.8rem;
+}
+i.fa-envelope {
+  color: #343a40;
+}
+i.fa-at {
+  color: #CC0000;
+}
+i.fa-phone {
+  color: #1E8700;
+}
+i.fa-sort-up {
+  color: #007bff;
+}
+
+.panel-header {
+  height: 8%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  box-shadow: 0 0.2rem 0.5rem #4d4d4d;
+  padding: 5px;
+  justify-content: space-between;
+}
+.panel-header .search {
+  height: 50%;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid thin #007bff;
+  min-height: 3.6rem;
+  border-radius: 0;
+  outline-style: none;
+  box-shadow: none;
+}
+.panel-header .search::focus {
+  outline: none;
+  border: none;
+}
+.panel-header i.fa-search {
+  color: #0e79cc;
+  margin-left: -18px;
+}
+.panel-header .panel-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.4rem;
+  outline: none;
+  color: #0e79cc;
+}
+.panel-header .panel-button i {
+  margin-right: 5px;
+}
+
+.create-panel {
+  padding: 40px;
+}
+.create-panel form {
+  background-color: white;
+  padding: 10px;
+  box-shadow: -0.2rem 0 0.3rem #e6e6e6, 0.1rem 0.2rem 0.2rem #e6e6e6;
+}
+.create-panel form input, .create-panel form select {
+  border: none;
+  background-color: transparent;
+  border-bottom: solid thin #ddd;
+  padding: 1.6rem 0 0 0;
+  min-height: 4rem;
+  width: 100%;
+  border-radius: 0;
+  outline: none;
+}
+.create-panel form button {
+  margin-top: 10px;
+  padding: 1rem;
+  min-height: 4rem;
+  width: 100%;
+  background-color: #0e79cc;
+  color: white;
+}
+.create-panel form h6 {
+  color: red;
+}
+
+.multi-select {
+  position: relative;
+  height: 100%;
+}
+.multi-select div {
+  border-bottom: 1px solid #ddd;
+  min-height: 4rem;
+  padding-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.multi-select div span {
+  width: 5%;
+  padding: 5px;
+  background: #0e79cc;
+  color: white;
+  margin: 2px;
+  border-radius: 5px;
+}
+.multi-select div span i {
+  margin-left: 5px;
+}
+.multi-select i.fa-sort-down {
+  font-size: 3.6rem;
+  margin-top: -5px;
+  float: right;
+  margin-left: 5px;
+}
+.multi-select ul {
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  background: white;
+  max-height: 150px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  overflow: scroll;
+}
+.multi-select ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 2px;
+}
+
+.group-list {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+.group-list .group-list-item {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 1rem;
+  background: white;
+  width: calc(25% - 1rem);
+  box-shadow: -0.2rem 0 0.3rem #e6e6e6, 0.1rem 0.2rem 0.2rem #e6e6e6;
+}
+@media (max-width: 992px) {
+  .group-list .group-list-item {
+    width: calc(33.33% - 1rem);
+  }
+}
+@media (max-width: 600px) {
+  .group-list .group-list-item {
+    width: calc(50% - 1rem);
+  }
+}
+@media (max-width: 300px) {
+  .group-list .group-list-item {
+    width: calc(100% - 1rem);
+  }
+}
+.group-list .group-list-item div {
+  flex-grow: 0.8;
+}
+.group-list .group-list-item .group-icon, .group-list .group-list-item .delete-icon {
+  flex-grow: 0.1;
+  position: relative;
+  padding: 1.8rem;
+}
+.group-list .group-list-item .group-icon i, .group-list .group-list-item .delete-icon i {
+  font-size: 1.8rem;
+}
+.group-list .group-list-item .group-icon i[disabled], .group-list .group-list-item .delete-icon i[disabled] {
+  color: #d3d3d3;
+  cursor: default;
+}
+.group-list .group-list-item .delete-icon i {
+  cursor: pointer;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+html body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+}
+html body div[id=app-container] {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=app.css.map */

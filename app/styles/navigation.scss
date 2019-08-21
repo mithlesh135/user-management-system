@@ -1,0 +1,44 @@
+div.navigation {
+    display: flex;
+    height: 100%;
+    .left-panel {
+        padding: 0;
+        color: white;
+        background-color: $nav-bg-color;
+        height: 100%;
+        width: 15%;
+        li {
+            list-style-type: none;
+            border-bottom: 1px solid $nav-border;
+            &:hover {
+                background-color: rgba($nav-color, 0.2);
+                cursor: pointer;
+            }
+            a {
+                color: $nav-color;
+                text-decoration: none;
+                display: block;
+                padding: 10px 5px 10px 5px;
+                &.active {
+                    color: #fff;
+                }
+            }
+            i {
+                margin-right: 10px;
+                font-size: 1.8rem;
+                width: 18px;
+                text-align: center;
+            }
+        }
+        -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    .right-panel {
+        width: 85%;
+        padding-bottom: 140px;
+        height: 100%;
+        background-color: rgb(244, 241, 242);
+    }
+}

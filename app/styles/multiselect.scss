@@ -1,0 +1,45 @@
+.multi-select {
+    position: relative;
+    height: 100%;
+    div {
+        border-bottom: 1px solid $border-color;
+        min-height: 4rem;
+        padding-top: 10px;
+        outline: none;
+        cursor: pointer;
+        span {
+            width: 5%;
+            padding: 5px;
+            background: $clickable-color;
+            color: white;
+            margin: 2px;
+            border-radius: 5px;
+
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    i.fa-sort-down {
+        font-size: 3.6rem;
+        margin-top: -5px;
+        float: right;
+        margin-left: 5px;
+    }
+
+    ul {
+        list-style: none;
+        position: absolute;
+        padding: 0;
+        background: white;
+        max-height: 150px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        width: 100%;
+        overflow: scroll;
+        li {
+            border-bottom: 1px solid $border-color;
+            padding: 5px 2px;
+        }
+    }
+}

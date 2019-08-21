@@ -1,0 +1,21 @@
+i {
+    &.fa-trash {
+        color: $clickable-color;
+        font-size: 1.8rem;
+    }
+
+    &.fa-envelope {
+        color: $nav-bg-color;
+    }
+
+    &.fa-at {
+        color: #CC0000
+    }
+
+    &.fa-phone {
+        color: #1E8700;
+    }
+    &.fa-sort-up {
+        color: $primary-color;
+    }
+}

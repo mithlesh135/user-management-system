@@ -1,0 +1,12 @@
+{
+    "appName": "User Management System",
+    "users": "Users",
+    "groups": "Groups",
+    "form": {
+        "validation": {
+            "name": "Name should have more that three characters",
+            "email": "Please enter valid email",
+            "groups": "User should have atleast one associated group"
+        }
+    }
+}

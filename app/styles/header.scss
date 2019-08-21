@@ -1,0 +1,22 @@
+.header {
+    height: 10%;
+    min-height: 80px;
+    position: relative;
+    padding: 10px;
+    background-color: $header-bg;
+    label {
+        @extend %center-item;
+        font-size: 3rem;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    img {
+        @extend %center-item;
+        transform: translate(0, -50%);
+        left: 10px;
+        height: 50px;
+        border-radius: 800px;
+    }
+}

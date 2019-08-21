@@ -1,0 +1,48 @@
+.group-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    .group-list-item {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        padding: 1rem;
+        background: white;
+        width: calc(25% - 1rem);
+        box-shadow: -0.2rem 0 0.3rem #e6e6e6, 0.1rem 0.2rem 0.2rem #e6e6e6;
+    
+        @media (max-width: 992px) {
+            width: calc(33.33% - 1rem);
+        }
+    
+        @media (max-width: 600px) {
+            width: calc(50% - 1rem);
+        }
+    
+        @media (max-width: 300px) {
+            width: calc(100% - 1rem);
+        }
+
+        div {
+            flex-grow: .8;
+        }
+
+        .group-icon, .delete-icon {
+            flex-grow: .1;
+            position: relative;
+            padding: 1.8rem;
+            i {
+                @extend %center-item;
+                font-size: 1.8rem;
+                &[disabled] {
+                    color: $disabled-color;
+                    cursor: default;
+                }
+            }
+        }
+
+        .delete-icon i {
+            cursor: pointer;
+        }
+    }
+}

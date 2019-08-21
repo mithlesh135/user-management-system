@@ -1,0 +1,40 @@
+.panel-header {
+    height: 8%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    box-shadow: 0 0.2rem 0.5rem #4d4d4d;
+    padding: 5px;
+    justify-content: space-between;
+    .search {
+        height: 50%;
+        border: none;
+        background-color: transparent;
+        border-bottom: solid thin $primary-color;
+        min-height: 3.6rem;
+        border-radius: 0;
+        outline-style:none;
+        box-shadow:none;
+        &::focus {
+            outline: none;
+            border: none;
+        }
+    }
+    i.fa-search {
+        color: $clickable-color;
+        margin-left: -18px;
+    }
+    .panel-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 0.6rem 1.8rem;
+        font-size: 1.4rem;
+        outline: none;
+        color: #0e79cc;
+        i {
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "users": [],
+  "groups": [
+    {
+      "name": "security",
+      "description": "",
+      "users": [
+        1016
+      ],
+      "id": 1006
+    },
+    {
+      "name": "Test",
+      "description": "",
+      "id": 1007
+    }
+  ]
+}

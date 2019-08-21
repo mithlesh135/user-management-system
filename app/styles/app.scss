@@ -1,0 +1,31 @@
+@import "./var.scss";
+@import "./common.scss";
+@import "./header.scss";
+@import "./navigation.scss";
+@import "./userList.scss";
+@import "./icons.scss";
+@import "./panelHeader.scss";
+@import "./form.scss";
+@import "./multiselect.scss";
+@import "./groupList.scss";
+
+
+html { 
+    font-size: 62.5%; 
+    height: 100%;
+    width: 100%;
+    body {
+        height: 100%;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px; font-size: 1.4rem;
+
+        div[id=app-container] {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        box-sizing: border-box;
+    }
+} 

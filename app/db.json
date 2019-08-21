@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "id": 1001,
+            "name": "Mithlesh Singh",
+            "emailId": "mithlesh135@gmail.com",
+            "phone": "918007541649",
+            "country": "India",
+            "sex": "male",
+            "dob": 556828200000,
+            "groups": [1001, 1002]
+        },
+        {
+            "id": 1002,
+            "name": "XYZ",
+            "emailId": "xyz@gmail.com",
+            "phone": "918007541649",
+            "country": "India",
+            "sex": "female",
+            "dob": 333311400000
+        }
+    ],
+    "groups": [
+        {
+            "id": 1001,
+            "name": "development",
+            "users": [1001, 1002]
+        },
+        {
+            "id": 1002,
+            "name": "testing",
+            "users": [1001, 1002]
+        },
+        {
+            "id": 1003,
+            "name": "support",
+            "users": [1001, 1002]
+        },
+        {
+            "id": 1003,
+            "name": "operations",
+            "users": [1001, 1002]
+        }
+    ]
+}
