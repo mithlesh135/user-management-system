@@ -9,6 +9,16 @@
         1006
       ],
       "id": 1
+    },
+    {
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "phone": "8007541649",
+      "dob": "2019-08-13",
+      "groups": [
+        1006
+      ],
+      "id": 1
     }
   ],
   "groups": [
